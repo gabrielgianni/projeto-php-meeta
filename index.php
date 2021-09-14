@@ -8,11 +8,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro de Usuário - Meeta</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <header>
+        <h1>Cadastrar Usuário</h1>
+    </header>
     <main>
         <section id="form">
-            <h1>Cadastrar Usuário</h1>
             <form action="action.php" method="post">
                 <label for="name">Seu nome: <span class="required">*</span></label>
                 <br>
@@ -26,7 +29,7 @@
                 <br>
                 <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
                 <br><br>
-                <button type="submit">Enviar</button>
+                <button type="submit">Cadastrar</button>
             </form>
             <?php
                 if(isset($_SESSION['msg'])) {
