@@ -22,6 +22,4 @@
         echo "Dados incompletos.<br>";
         echo '<a href="./">Voltar</a>';
     }
-
-
 ?>
